@@ -36,7 +36,10 @@ class MyApp extends StatelessWidget {
             ),
             SizedBox(height:50),
             SizedBox(height:50),
-            Text("El ITESO, Universidad Jesuita de Guadalajara, es una universidad privada ubicada en la Zona Metropolitana de Guadalajara, Jalisco, México, fundada en el año 1957. La institución forma parte del Sistema Universitario Jesuita que integra a ocho universidades en México. $contador")
+            Padding(
+              padding: const EdgeInsets.all(10.0),
+              child: Text("El ITESO, Universidad Jesuita de Guadalajara, es una universidad privada ubicada en la Zona Metropolitana de Guadalajara, Jalisco, México, fundada en el año 1957. La institución forma parte del Sistema Universitario Jesuita que integra a ocho universidades en México. $contador"),
+            )
         ],
         ),
       ),
